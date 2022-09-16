@@ -9,7 +9,7 @@ class Subtrai {
         LeDados r = new LeDados ();
         r.lerValores();
         System.out.println("O valor da subtração é "+ 
-                (r.valor2 - r.valor1 ));
+                (r.valor1 - r.valor2 ));
     }
     
 }

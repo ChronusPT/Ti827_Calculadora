@@ -16,7 +16,7 @@ public class Calculadora_Java {
         System.out.println("* -> Multiplicação ");
         System.out.println("/ -> Divisão ");
         System.out.println("e -> Expoente ");
-        System.out.println("I -> Indice de Massa Corporal ");
+        System.out.println("I -> IMC ");
         System.out.println("s -> Sair ");
         System.out.println("Indique a operação pretendida :");
         op = ler.next().charAt(0);
@@ -29,6 +29,7 @@ public class Calculadora_Java {
             case 'e': Expoente.potencia(); break;
             case 'i':
             case 'I': IMC.calculaIMC(); break;
+            
             default: System.out.println("Operador Incorreto!");
         }
            
