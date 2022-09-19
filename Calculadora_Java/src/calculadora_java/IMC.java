@@ -8,7 +8,7 @@ class IMC {
         float IMC = 0;
         
         LeDados r = new LeDados ();
-        r.lerValores();
+        r.lerValores("Indique o peso", "Indique a altura");
         IMC = (float) (r.valor1 / Math.pow (r.valor2,2));
         System.out.println("O valor do IMC = "+ IMC);
         
